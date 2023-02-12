@@ -1,0 +1,228 @@
+rm -f obj/*.o
+icc -c -o obj/ga.o ga.c -I./include -lm -O3 -Wall -xHost -fno-alias -std=c99
+icc -c -o obj/timing.o timing.c -I./include -lm -O3 -Wall -xHost -fno-alias -std=c99
+icc -o ga obj/ga.o obj/timing.o -I./include -lm -O3 -Wall -xHost -fno-alias -std=c99 
+
+
+Serial version
+
+
+A with pop size: 10, n: 4, beta: 50.0
+========================================
+Population Size:                      10
+Number of Trials:                      3
+Avg Number of Generations:    280.333333
+Avg Time (ms):                  1.431234
+Best Individual Fitness: +1.00000000e+00
+Best Individual:         [1, 2, 3, 4]
+========================================
+
+
+B with pop size: 10, n: 5, rand: 0.0
+========================================
+Population Size:                      10
+Number of Trials:                      3
+Avg Number of Generations:     24.000000
+Avg Time (ms):                  0.181641
+Best Individual Fitness: +1.00000000e+00
+Best Individual:         [5, 1, 4, 3, 2]
+========================================
+
+
+A with pop size: 10, n: 4, beta: 0.5
+========================================
+Population Size:                      10
+Number of Trials:                      3
+Avg Number of Generations:    504.000000
+Avg Time (ms):                  2.580322
+Best Individual Fitness: +1.00000000e+00
+Best Individual:         [1, 2, 3, 4]
+========================================
+
+
+B with pop size: 10, n: 5, rand: 1.0
+========================================
+Population Size:                      10
+Number of Trials:                      3
+Avg Number of Generations:     24.000000
+Avg Time (ms):                  0.181071
+Best Individual Fitness: +1.00000000e+00
+Best Individual:         [5, 1, 4, 3, 2]
+========================================
+
+
+A with pop size: 50, n: 4, beta: 50.0
+========================================
+Population Size:                      50
+Number of Trials:                      3
+Avg Number of Generations:    182.000000
+Avg Time (ms):                  7.215088
+Best Individual Fitness: +1.00000000e+00
+Best Individual:         [1, 2, 3, 4]
+========================================
+
+
+B with pop size: 50, n: 5, rand: 0.0
+========================================
+Population Size:                      50
+Number of Trials:                      3
+Avg Number of Generations:     12.333333
+Avg Time (ms):                  0.770915
+Best Individual Fitness: +1.00000000e+00
+Best Individual:         [4, 5, 1, 3, 2]
+========================================
+
+
+A with pop size: 50, n: 4, beta: 0.5
+========================================
+Population Size:                      50
+Number of Trials:                      3
+Avg Number of Generations:    965.000000
+Avg Time (ms):                 38.008301
+Best Individual Fitness: +1.00000000e+00
+Best Individual:         [1, 2, 3, 4]
+========================================
+
+
+B with pop size: 50, n: 5, rand: 1.0
+========================================
+Population Size:                      50
+Number of Trials:                      3
+Avg Number of Generations:      5.666667
+Avg Time (ms):                  0.393717
+Best Individual Fitness: +1.00000000e+00
+Best Individual:         [4, 5, 3, 1, 2]
+========================================
+
+
+A with pop size: 100, n: 4, beta: 50.0
+========================================
+Population Size:                     100
+Number of Trials:                      3
+Avg Number of Generations:      6.666667
+Avg Time (ms):                  0.811361
+Best Individual Fitness: +1.00000000e+00
+Best Individual:         [1, 2, 3, 4]
+========================================
+
+
+B with pop size: 100, n: 5, rand: 0.0
+========================================
+Population Size:                     100
+Number of Trials:                      3
+Avg Number of Generations:      6.333333
+Avg Time (ms):                  1.043050
+Best Individual Fitness: +1.00000000e+00
+Best Individual:         [2, 1, 3, 4, 5]
+========================================
+
+
+A with pop size: 100, n: 4, beta: 0.5
+========================================
+Population Size:                     100
+Number of Trials:                      3
+Avg Number of Generations:    965.000000
+Avg Time (ms):                 93.348958
+Best Individual Fitness: +1.00000000e+00
+Best Individual:         [1, 2, 3, 4]
+========================================
+
+
+B with pop size: 100, n: 5, rand: 1.0
+========================================
+Population Size:                     100
+Number of Trials:                      3
+Avg Number of Generations:      2.666667
+Avg Time (ms):                  0.526774
+Best Individual Fitness: +1.00000000e+00
+Best Individual:         [4, 2, 3, 5, 1]
+========================================
+
+
+A with pop size: 150, n: 4, beta: 50.0
+========================================
+Population Size:                     150
+Number of Trials:                      3
+Avg Number of Generations:    347.333333
+Avg Time (ms):                 50.578613
+Best Individual Fitness: +1.00000000e+00
+Best Individual:         [1, 2, 3, 4]
+========================================
+
+
+B with pop size: 150, n: 5, rand: 0.0
+========================================
+Population Size:                     150
+Number of Trials:                      3
+Avg Number of Generations:      2.666667
+Avg Time (ms):                  0.843994
+Best Individual Fitness: +1.00000000e+00
+Best Individual:         [2, 1, 3, 5, 4]
+========================================
+
+
+A with pop size: 150, n: 4, beta: 0.5
+========================================
+Population Size:                     150
+Number of Trials:                      3
+Avg Number of Generations:      6.666667
+Avg Time (ms):                  1.188151
+Best Individual Fitness: +1.00000000e+00
+Best Individual:         [1, 2, 3, 4]
+========================================
+
+
+B with pop size: 150, n: 5, rand: 1.0
+========================================
+Population Size:                     150
+Number of Trials:                      3
+Avg Number of Generations:      5.000000
+Avg Time (ms):                  1.359294
+Best Individual Fitness: +1.00000000e+00
+Best Individual:         [5, 4, 3, 2, 1]
+========================================
+
+
+A with pop size: 1000, n: 4, beta: 50.0
+========================================
+Population Size:                    1000
+Number of Trials:                      3
+Avg Number of Generations:      3.666667
+Avg Time (ms):                  6.890625
+Best Individual Fitness: +1.00000000e+00
+Best Individual:         [1, 2, 3, 4]
+========================================
+
+
+B with pop size: 1000, n: 5, rand: 0.0
+========================================
+Population Size:                    1000
+Number of Trials:                      3
+Avg Number of Generations:      1.666667
+Avg Time (ms):                  5.839600
+Best Individual Fitness: +1.00000000e+00
+Best Individual:         [5, 1, 3, 4, 2]
+========================================
+
+
+A with pop size: 1000, n: 4, beta: 0.5
+========================================
+Population Size:                    1000
+Number of Trials:                      3
+Avg Number of Generations:    481.333333
+Avg Time (ms):                662.335775
+Best Individual Fitness: +1.00000000e+00
+Best Individual:         [1, 2, 3, 4]
+========================================
+
+
+B with pop size: 1000, n: 5, rand: 1.0
+========================================
+Population Size:                    1000
+Number of Trials:                      3
+Avg Number of Generations:      1.666667
+Avg Time (ms):                  5.835286
+Best Individual Fitness: +1.00000000e+00
+Best Individual:         [5, 1, 2, 3, 4]
+========================================
+2.65

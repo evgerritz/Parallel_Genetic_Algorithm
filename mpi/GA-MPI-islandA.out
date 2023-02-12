@@ -1,0 +1,341 @@
+
+Currently Loaded Modules:
+  1) StdEnv                            (S)
+  2) GCCcore/10.2.0
+  3) zlib/1.2.11-GCCcore-10.2.0
+  4) binutils/2.35-GCCcore-10.2.0
+  5) iccifort/2020.4.304
+  6) numactl/2.0.13-GCCcore-10.2.0
+  7) XZ/5.2.5-GCCcore-10.2.0
+  8) libxml2/2.9.10-GCCcore-10.2.0
+  9) libpciaccess/0.16-GCCcore-10.2.0
+ 10) hwloc/2.2.0-GCCcore-10.2.0
+ 11) libevent/2.1.12-GCCcore-10.2.0
+ 12) UCX/1.9.0-GCCcore-10.2.0
+ 13) libfabric/1.11.0-GCCcore-10.2.0
+ 14) OpenMPI/4.0.5-iccifort-2020.4.304
+ 15) iompi/2020b
+ 16) imkl/2020.4.304-iompi-2020b
+ 17) iomkl/2020b
+
+  Where:
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+
+Working Directory: /home/cpsc424_smv32/cs424/cs424-final-GA/mpi
+
+Making ga-island
+rm -f ga-island ga-island.o
+mpicc -g3 -O3 -std=c99  -c ga-island.c
+mpicc -o ga-island -g3 -O3 -std=c99  ga-island.o
+
+
+Node List:
+c16n02
+ntasks-per-node =  4
+chromosomes = 50
+genes = 4
+beta = 50
+==========================================
+Number of MPI Processes:                 4
+Computation Time:               0.00681975
+==========================================
+Population Size:                        50
+Number of Generations:                  86
+==========================================
+Best Individual Fitness:   +1.00000000e+00
+Best Individual: [1, 2, 3, 4]
+==========================================
+
+real	0m4.364s
+user	0m0.392s
+sys	0m0.436s
+
+
+chromosomes = 50
+genes = 4
+beta = 0.5
+==========================================
+Number of MPI Processes:                 4
+Computation Time:               0.00134985
+==========================================
+Population Size:                        50
+Number of Generations:                  12
+==========================================
+Best Individual Fitness:   +1.00000000e+00
+Best Individual: [1, 2, 3, 4]
+==========================================
+
+real	0m1.043s
+user	0m0.299s
+sys	0m0.446s
+
+
+chromosomes = 50
+genes = 8
+beta = 50
+==========================================
+Number of MPI Processes:                 4
+Computation Time:               0.33412714
+==========================================
+Population Size:                        50
+Number of Generations:               10880
+==========================================
+Best Individual Fitness:   -4.07910812e+03
+Best Individual: [1, 1, 3, 5, 4, 6, 8, 7]
+==========================================
+
+real	0m1.349s
+user	0m1.647s
+sys	0m0.402s
+
+
+chromosomes = 50
+genes = 8
+beta = 0.5
+==========================================
+Number of MPI Processes:                 4
+Computation Time:               0.31664244
+==========================================
+Population Size:                        50
+Number of Generations:               10880
+==========================================
+Best Individual Fitness:   -9.30456891e+07
+Best Individual: [3, 8, 7, 6, 5, 3, 3, 3]
+==========================================
+
+real	0m1.359s
+user	0m1.619s
+sys	0m0.436s
+
+
+chromosomes = 100
+genes = 4
+beta = 50
+==========================================
+Number of MPI Processes:                 4
+Computation Time:               0.00170316
+==========================================
+Population Size:                       100
+Number of Generations:                   4
+==========================================
+Best Individual Fitness:   +1.00000000e+00
+Best Individual: [1, 2, 3, 4]
+==========================================
+
+real	0m1.047s
+user	0m0.379s
+sys	0m0.428s
+
+
+chromosomes = 100
+genes = 4
+beta = 0.5
+==========================================
+Number of MPI Processes:                 4
+Computation Time:               0.00169518
+==========================================
+Population Size:                       100
+Number of Generations:                   4
+==========================================
+Best Individual Fitness:   +1.00000000e+00
+Best Individual: [1, 2, 3, 4]
+==========================================
+
+real	0m1.037s
+user	0m0.314s
+sys	0m0.462s
+
+
+chromosomes = 100
+genes = 8
+beta = 50
+==========================================
+Number of MPI Processes:                 4
+Computation Time:               0.71300699
+==========================================
+Population Size:                       100
+Number of Generations:               10880
+==========================================
+Best Individual Fitness:   -4.07910812e+03
+Best Individual: [1, 1, 3, 5, 4, 6, 8, 7]
+==========================================
+
+real	0m2.020s
+user	0m3.187s
+sys	0m0.460s
+
+
+chromosomes = 100
+genes = 8
+beta = 0.5
+==========================================
+Number of MPI Processes:                 4
+Computation Time:               0.70700657
+==========================================
+Population Size:                       100
+Number of Generations:               10880
+==========================================
+Best Individual Fitness:   +1.89280030e-01
+Best Individual: [1, 4, 3, 8, 5, 7, 6, 1]
+==========================================
+
+real	0m1.972s
+user	0m3.178s
+sys	0m0.426s
+
+
+chromosomes = 150
+genes = 4
+beta = 50
+==========================================
+Number of MPI Processes:                 4
+Computation Time:               0.00175418
+==========================================
+Population Size:                       150
+Number of Generations:                   4
+==========================================
+Best Individual Fitness:   +1.00000000e+00
+Best Individual: [1, 2, 3, 4]
+==========================================
+
+real	0m1.358s
+user	0m0.400s
+sys	0m0.452s
+
+
+chromosomes = 150
+genes = 4
+beta = 0.5
+==========================================
+Number of MPI Processes:                 4
+Computation Time:               0.00174269
+==========================================
+Population Size:                       150
+Number of Generations:                   3
+==========================================
+Best Individual Fitness:   +1.00000000e+00
+Best Individual: [1, 2, 3, 4]
+==========================================
+
+real	0m1.172s
+user	0m0.399s
+sys	0m0.476s
+
+
+chromosomes = 150
+genes = 8
+beta = 50
+==========================================
+Number of MPI Processes:                 4
+Computation Time:               1.12459467
+==========================================
+Population Size:                       150
+Number of Generations:               10880
+==========================================
+Best Individual Fitness:   -7.68061892e+07
+Best Individual: [0, -3, 7, 6, 8, -3, 3, 5]
+==========================================
+
+real	0m2.398s
+user	0m4.856s
+sys	0m0.456s
+
+
+chromosomes = 150
+genes = 8
+beta = 0.5
+==========================================
+Number of MPI Processes:                 4
+Computation Time:               0.01183623
+==========================================
+Population Size:                       150
+Number of Generations:                  91
+==========================================
+Best Individual Fitness:   +1.00000000e+00
+Best Individual: [1, 2, 3, 4, 5, 6, 7, 8]
+==========================================
+
+real	0m1.199s
+user	0m0.378s
+sys	0m0.476s
+
+
+chromosomes = 1000
+genes = 4
+beta = 50
+==========================================
+Number of MPI Processes:                 4
+Computation Time:               0.00257745
+==========================================
+Population Size:                      1000
+Number of Generations:                   3
+==========================================
+Best Individual Fitness:   +1.00000000e+00
+Best Individual: [1, 2, 3, 4]
+==========================================
+
+real	0m1.168s
+user	0m0.384s
+sys	0m0.441s
+
+
+chromosomes = 1000
+genes = 4
+beta = 0.5
+==========================================
+Number of MPI Processes:                 4
+Computation Time:               0.00263594
+==========================================
+Population Size:                      1000
+Number of Generations:                   5
+==========================================
+Best Individual Fitness:   +1.00000000e+00
+Best Individual: [1, 2, 3, 4]
+==========================================
+
+real	0m1.143s
+user	0m0.307s
+sys	0m0.460s
+
+
+chromosomes = 1000
+genes = 8
+beta = 50
+==========================================
+Number of MPI Processes:                 4
+Computation Time:              11.28492543
+==========================================
+Population Size:                      1000
+Number of Generations:               10880
+==========================================
+Best Individual Fitness:   -6.15380211e+03
+Best Individual: [1, 1, 3, 4, 6, 7, 5, 8]
+==========================================
+
+real	0m18.107s
+user	0m45.495s
+sys	0m0.551s
+
+
+chromosomes = 1000
+genes = 8
+beta = 0.5
+==========================================
+Number of MPI Processes:                 4
+Computation Time:               0.04536085
+==========================================
+Population Size:                      1000
+Number of Generations:                  37
+==========================================
+Best Individual Fitness:   +1.00000000e+00
+Best Individual: [1, 2, 3, 4, 5, 6, 7, 8]
+==========================================
+
+real	0m1.130s
+user	0m0.497s
+sys	0m0.429s
+
+
